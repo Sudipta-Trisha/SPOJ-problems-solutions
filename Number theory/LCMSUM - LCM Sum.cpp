@@ -1,3 +1,16 @@
+/*To find the lcm sum from 1 to n..
+Using this formula:
+LCM_SUM = summation of ((d*ETF(d) + 1)*n)/2
+Here, ETF(d) stands for the eluler's totient function of d where d is the divisors of n.
+
+if the number is 5, then the lcm sum will be,
+LCM_SUM = ((1*ETF(1) + 5*ETf(5) + 1)*5)/2
+Here, 1 & 5 are the divisors of 5.
+
+***Source--- GeeksforGeeks***
+I have learned the ETF from CP-Algorithm.
+*/
+
 #include<bits/stdc++.h>
 #define ll long long int
 using namespace std;
