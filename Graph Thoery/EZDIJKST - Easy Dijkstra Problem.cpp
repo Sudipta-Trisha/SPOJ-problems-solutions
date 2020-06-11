@@ -58,7 +58,7 @@ int main()
                 ll u,v,c;
                 cin>>u>>v>>c;
                 
-                graph[u].push_back(v);
+                graph[u].push_back(v);        //point to be noted--- "it's a directed graph"//
                 
                 cost[u].push_back(c);
             }
